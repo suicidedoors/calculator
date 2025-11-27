@@ -1,5 +1,6 @@
 #include <cmath>
 #include <iostream>
+#include <utility>
 
 // basic
 template <typename A, typename B>
@@ -43,6 +44,15 @@ auto logBase(A base, B x) {
     return std::log(x) / std::log(base);
 }
 
+//solve for x
+template <typename A, typename B, typename C> auto solveQuadraticEquation(A a, B b, C c){
+    auto D = b*b - 4.0 * a * c;
+    D = exponentation(D, 0.5);
+    auto x1 = (-b - D) / (2*a);
+    auto x2 = (-b + D) / (2*a);
+    return std::make_pair(x1, x2);
+}
+
 int main(){
-    W calc
+
 }
