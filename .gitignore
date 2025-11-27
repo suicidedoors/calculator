@@ -1,0 +1,299 @@
+#              ███   █████     ███                                                 
+#             ░░░   ░░███     ░░░                                                  
+#     ███████ ████  ███████   ████   ███████ ████████    ██████  ████████   ██████ 
+#    ███░░███░░███ ░░░███░   ░░███  ███░░███░░███░░███  ███░░███░░███░░███ ███░░███
+#   ░███ ░███ ░███   ░███     ░███ ░███ ░███ ░███ ░███ ░███ ░███ ░███ ░░░ ░███████ 
+#   ░███ ░███ ░███   ░███ ███ ░███ ░███ ░███ ░███ ░███ ░███ ░███ ░███     ░███░░░  
+# ██░░███████ █████  ░░█████  █████░░███████ ████ █████░░██████  █████    ░░██████ 
+#░░  ░░░░░███░░░░░    ░░░░░  ░░░░░  ░░░░░███░░░░ ░░░░░  ░░░░░░  ░░░░░      ░░░░░░  
+#    ███ ░███                       ███ ░███                                       
+#   ░░██████                       ░░██████                                        
+#    ░░░░░░                                                                        
+
+
+# ============================================
+# =============== OPERATING SYSTEM ============
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.cache/
+Trash/
+
+
+# ============================================
+# ================== IDE / EDITORS ============
+# ============================================
+
+# VSCode
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains (CLion, IntelliJ, PyCharm, WebStorm…)
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*.swm
+
+# Emacs
+*~
+\#*\#
+\.#*
+
+# Notepad++
+*.bak
+
+
+# ============================================
+# ================= PROGRAMMING LANGUAGES =====
+# ============================================
+
+
+# ----------- C / C++ -----------
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+*.dSYM/
+*.pch
+*.pdb
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+
+# ----------- Python -----------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.eggs/
+build/
+dist/
+*.spec
+pip-wheel-metadata/
+
+# Virtual envs
+venv/
+env/
+.venv/
+
+# ----------- Java -----------
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+target/
+build/
+
+# Maven
+.mvn/timing.properties
+.settings/
+
+# Gradle
+.gradle/
+build/
+
+# ----------- Kotlin -----------
+*.kotlin_module
+
+# ----------- Go -----------
+bin/
+*.exe
+*.test
+vendor/
+
+# ----------- Rust -----------
+/target/
+Cargo.lock (optional)
+
+# ----------- Node / JS / TS -----------
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log
+
+# Vite / Webpack / Rollup
+.vite/
+.parcel-cache/
+.cache/
+.rollup.cache/
+
+# ----------- PHP -----------
+vendor/
+composer.lock
+
+# ----------- Ruby -----------
+.bundle/
+vendor/bundle/
+log/
+tmp/
+
+# ----------- Swift -----------
+.build/
+DerivedData/
+*.swiftmodule
+*.swiftsourceinfo
+
+# ----------- C# / .NET -----------
+bin/
+obj/
+*.user
+*.suo
+*.dll
+*.exe
+*.app
+
+# ----------- R -----------
+.Rhistory
+.RData
+.Rproj.user/
+
+# ----------- Julia -----------
+/Manifest.toml
+/Project.toml
+.julia/
+
+# ----------- Lua -----------
+*.luac
+
+
+# ============================================
+# ============== WEB TECHNOLOGIES ============
+# ============================================
+
+# HTML / CSS / JS Outputs
+*.min.css
+*.min.js
+*.map
+
+# Sass / SCSS
+.sass-cache/
+*.css.map
+
+# Logs
+*.log
+
+# Cache
+.cache/
+
+# Frameworks
+.next/
+.nuxt/
+out/
+.svelte-kit/
+elm-stuff/
+
+# React Native
+.expo/
+.expo-shared/
+android/
+ios/
+
+
+# ============================================
+# ============ DATABASE / DATA FILES ==========
+# ============================================
+
+*.sqlite
+*.db
+*.mdb
+*.sql
+*.dump
+*.bak
+*.csv~
+*.tmp
+
+
+# ============================================
+# ============== IMAGE / MEDIA ================
+# ============================================
+
+*.psd
+*.ai
+*.xcf
+*.blend1
+*.blend2
+*.kra
+*.tmp
+
+
+# ============================================
+# =============== DOCKER ======================
+# ============================================
+
+docker-compose.override.yml
+.docker/
+tmp/
+
+
+# ============================================
+# =============== OTHER RANDOM STUFF ==========
+# ============================================
+
+*.tmp
+*.bak
+*.old
+*.orig
+*.swp
+*.temp
+*.pid
+
+# Backup files
+*.backup
+*.bk
+*.bkp
+
+# Logs
+*.log
+*.log.*
+
+# Cache
+.cache/
+temp/
+tmp/
+
